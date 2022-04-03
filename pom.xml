@@ -11,7 +11,7 @@
   </parent>
   <groupId>com.master</groupId>
   <artifactId>domain-user-service</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0.0</version>
   <name>domain-user-service</name>
   <description>domain-user-service</description>
   <properties>
@@ -116,12 +116,12 @@
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
+        <version>2.6.6</version>
         <configuration>
           <excludes>
             <exclude>
               <groupId>org.projectlombok</groupId>
               <artifactId>lombok</artifactId>
-              <version>${project.version}</version>
             </exclude>
           </excludes>
         </configuration>
