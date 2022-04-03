@@ -1,9 +1,9 @@
-package com.example.domain_user_service.controller;
+package com.master.domain_user_service.controller;
 
-import com.example.domain_user_service.dto.UserDto;
-import com.example.domain_user_service.dto.validations.MandatoryFieldsValidation;
-import com.example.domain_user_service.mapper.UserMapper;
-import com.example.domain_user_service.service.UserService;
+import com.master.domain_user_service.dto.UserDto;
+import com.master.domain_user_service.dto.validations.MandatoryFieldsValidation;
+import com.master.domain_user_service.mapper.UserMapper;
+import com.master.domain_user_service.service.UserService;
 import java.util.List;
 import java.util.stream.Collectors;
 import javax.validation.constraints.Min;
@@ -49,7 +49,7 @@ public class UserController {
         var user = userService.save(userDto);
         var location = UriComponentsBuilder
             .fromPath("http://localhost:9090/api/users")
-            .path("/v1/users/{id}")
+            .path("/v1/{id}")
             .buildAndExpand(user.getId())
             .toUri();
         return ResponseEntity.created(location).build();

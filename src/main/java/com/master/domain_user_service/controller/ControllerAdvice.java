@@ -1,7 +1,7 @@
-package com.example.domain_user_service.controller;
+package com.master.domain_user_service.controller;
 
-import com.example.domain_user_service.dto.ErrorDto;
-import com.example.domain_user_service.exception.ObjectNotFoundException;
+import com.master.domain_user_service.dto.ErrorDto;
+import com.master.domain_user_service.exception.ObjectNotFoundException;
 import java.time.LocalDateTime;
 import java.util.stream.Collectors;
 import javax.validation.ConstraintViolation;

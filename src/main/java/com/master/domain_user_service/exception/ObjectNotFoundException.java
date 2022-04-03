@@ -1,4 +1,4 @@
-package com.example.domain_user_service.exception;
+package com.master.domain_user_service.exception;
 
 public class ObjectNotFoundException extends RuntimeException {
 

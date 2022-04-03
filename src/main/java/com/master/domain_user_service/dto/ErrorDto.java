@@ -1,4 +1,4 @@
-package com.example.domain_user_service.dto;
+package com.master.domain_user_service.dto;
 
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;

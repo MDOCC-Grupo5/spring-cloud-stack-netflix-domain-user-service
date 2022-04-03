@@ -1,7 +1,7 @@
-package com.example.domain_user_service.mapper;
+package com.master.domain_user_service.mapper;
 
-import com.example.domain_user_service.dto.UserDto;
-import com.example.domain_user_service.entity.User;
+import com.master.domain_user_service.dto.UserDto;
+import com.master.domain_user_service.entity.User;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 

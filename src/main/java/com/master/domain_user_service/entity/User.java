@@ -1,4 +1,4 @@
-package com.example.domain_user_service.entity;
+package com.master.domain_user_service.entity;
 
 import java.io.Serializable;
 import javax.persistence.Column;

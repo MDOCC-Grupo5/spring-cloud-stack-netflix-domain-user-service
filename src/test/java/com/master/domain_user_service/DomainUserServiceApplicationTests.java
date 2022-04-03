@@ -1,4 +1,4 @@
-package com.example.domain_user_service;
+package com.master.domain_user_service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

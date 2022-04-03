@@ -1,6 +1,6 @@
-package com.example.domain_user_service.dto;
+package com.master.domain_user_service.dto;
 
-import com.example.domain_user_service.dto.validations.MandatoryFieldsValidation;
+import com.master.domain_user_service.dto.validations.MandatoryFieldsValidation;
 import java.io.Serializable;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;

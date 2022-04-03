@@ -1,10 +1,10 @@
-package com.example.domain_user_service.service.impl;
+package com.master.domain_user_service.service.impl;
 
-import com.example.domain_user_service.dto.UserDto;
-import com.example.domain_user_service.entity.User;
-import com.example.domain_user_service.exception.ObjectNotFoundException;
-import com.example.domain_user_service.repository.UserRepository;
-import com.example.domain_user_service.service.UserService;
+import com.master.domain_user_service.dto.UserDto;
+import com.master.domain_user_service.entity.User;
+import com.master.domain_user_service.exception.ObjectNotFoundException;
+import com.master.domain_user_service.repository.UserRepository;
+import com.master.domain_user_service.service.UserService;
 import java.util.List;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
-package com.example.domain_user_service.service;
+package com.master.domain_user_service.service;
 
-import com.example.domain_user_service.dto.UserDto;
-import com.example.domain_user_service.entity.User;
+import com.master.domain_user_service.dto.UserDto;
+import com.master.domain_user_service.entity.User;
 import java.util.List;
 
 public interface UserService {
